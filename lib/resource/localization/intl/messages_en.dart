@@ -25,14 +25,25 @@ class MessageLookup extends MessageLookupByLibrary {
         "already_account":
             MessageLookupByLibrary.simpleMessage("Already have an account? "),
         "discover": MessageLookupByLibrary.simpleMessage("Discover"),
+        "email": MessageLookupByLibrary.simpleMessage("Email address"),
         "explore": MessageLookupByLibrary.simpleMessage("Explore"),
+        "forgotPassword":
+            MessageLookupByLibrary.simpleMessage("Forgot password?"),
         "get_started": MessageLookupByLibrary.simpleMessage("Get Started"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "loading": MessageLookupByLibrary.simpleMessage("Loading"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "loginApple": MessageLookupByLibrary.simpleMessage("Login with Apple"),
+        "loginFacebook":
+            MessageLookupByLibrary.simpleMessage("Login with Facebook"),
+        "loginGoogle":
+            MessageLookupByLibrary.simpleMessage("Login with Google"),
         "manage": MessageLookupByLibrary.simpleMessage("Manage"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
         "now": MessageLookupByLibrary.simpleMessage("Now!"),
+        "orConnectWith":
+            MessageLookupByLibrary.simpleMessage("or connect with"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "provide": MessageLookupByLibrary.simpleMessage("We provide"),
         "slide1": MessageLookupByLibrary.simpleMessage(

@@ -19,5 +19,12 @@
   "explore": "Explore",
   "manage": "Manage",
   "profile": "Profile",
-  "somethingWentWrongMessage": "Oops something went wrong"
+  "somethingWentWrongMessage": "Oops something went wrong",
+  "email": "Email address",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "orConnectWith": "or connect with",
+  "loginGoogle": "Login with Google",
+  "loginFacebook": "Login with Facebook",
+  "loginApple": "Login with Apple"
 }

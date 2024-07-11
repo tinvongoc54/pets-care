@@ -4,7 +4,7 @@ class AppColors {
   static const red = Color(0xFFE54D4D);
   static const gray = Color(0xFFF1F2F6);
   static const grayLight = Color(0xFFA1A1A1);
-  static const grayDark = Color(0x99000000);
+  static const grayD4 = Color(0xFFD4D4D4);
   static const black = Color(0xFF171717);
   static const white = Colors.white;
   static const shadow = Color(0x5EB9B6C6);
