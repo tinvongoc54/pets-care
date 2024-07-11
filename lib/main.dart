@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:pets_care/app/pets_care_app.dart';
 import 'package:pets_care/app/pets_care_material_app.dart';
+import 'package:pets_care/resource/theme/app_colors.dart';
 import 'package:pets_care/ui/bloc/localization/localization_cubit.dart';
 
 import 'app/app_provider.dart';
@@ -17,7 +19,8 @@ void main() {
       statusBarIconBrightness: Brightness.light,
       statusBarBrightness: Brightness.light,
     ));
-    WidgetsFlutterBinding.ensureInitialized();
+    WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+    FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
     await setupDI();
 
     runApp(const MyApp());
@@ -25,6 +28,7 @@ void main() {
     debugPrint(error.toString());
     debugPrint(stack.toString());
   }));
+  FlutterNativeSplash.remove();
 }
 
 class MyApp extends StatefulWidget {

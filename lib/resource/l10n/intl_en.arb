@@ -1,0 +1,23 @@
+{
+  "@@locale": "en",
+  "loading": "Loading",
+  "welcome": "Hey! Welcome",
+  "slide1": "while you sit and stay - we’ll go out and play",
+  "slide2_1": "One tap for foods, accessories, health care products & digital gadgets",
+  "slide2_2": "Grooming & boarding",
+  "slide2_3": "Easy & best consultation bookings",
+  "slide3_1": "24hrs location tracking & health updates",
+  "slide3_2": "On time feeding updates",
+  "now": "Now!",
+  "provide": "We provide",
+  "already_account": "Already have an account? ",
+  "get_started": "Get Started",
+  "login": "Login",
+  "next": "Next",
+  "home": "Home",
+  "discover": "Discover",
+  "explore": "Explore",
+  "manage": "Manage",
+  "profile": "Profile",
+  "somethingWentWrongMessage": "Oops something went wrong"
+}

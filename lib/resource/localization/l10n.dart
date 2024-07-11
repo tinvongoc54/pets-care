@@ -50,16 +50,6 @@ class AppTranslations {
     return Localizations.of<AppTranslations>(context, AppTranslations);
   }
 
-  /// `Error`
-  String get error_title {
-    return Intl.message(
-      'Error',
-      name: 'error_title',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Loading`
   String get loading {
     return Intl.message(
@@ -70,11 +60,131 @@ class AppTranslations {
     );
   }
 
-  /// `Skip`
-  String get skip {
+  /// `Hey! Welcome`
+  String get welcome {
     return Intl.message(
-      'Skip',
-      name: 'skip',
+      'Hey! Welcome',
+      name: 'welcome',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `while you sit and stay - we’ll go out and play`
+  String get slide1 {
+    return Intl.message(
+      'while you sit and stay - we’ll go out and play',
+      name: 'slide1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `One tap for foods, accessories, health care products & digital gadgets`
+  String get slide2_1 {
+    return Intl.message(
+      'One tap for foods, accessories, health care products & digital gadgets',
+      name: 'slide2_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Grooming & boarding`
+  String get slide2_2 {
+    return Intl.message(
+      'Grooming & boarding',
+      name: 'slide2_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Easy & best consultation bookings`
+  String get slide2_3 {
+    return Intl.message(
+      'Easy & best consultation bookings',
+      name: 'slide2_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `24hrs location tracking & health updates`
+  String get slide3_1 {
+    return Intl.message(
+      '24hrs location tracking & health updates',
+      name: 'slide3_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `On time feeding updates`
+  String get slide3_2 {
+    return Intl.message(
+      'On time feeding updates',
+      name: 'slide3_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Now!`
+  String get now {
+    return Intl.message(
+      'Now!',
+      name: 'now',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We provide`
+  String get provide {
+    return Intl.message(
+      'We provide',
+      name: 'provide',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account? `
+  String get already_account {
+    return Intl.message(
+      'Already have an account? ',
+      name: 'already_account',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get get_started {
+    return Intl.message(
+      'Get Started',
+      name: 'get_started',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message(
+      'Login',
+      name: 'login',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Next`
+  String get next {
+    return Intl.message(
+      'Next',
+      name: 'next',
       desc: '',
       args: [],
     );
@@ -90,21 +200,31 @@ class AppTranslations {
     );
   }
 
-  /// `Question`
-  String get question {
+  /// `Discover`
+  String get discover {
     return Intl.message(
-      'Question',
-      name: 'question',
+      'Discover',
+      name: 'discover',
       desc: '',
       args: [],
     );
   }
 
-  /// `History`
-  String get history {
+  /// `Explore`
+  String get explore {
     return Intl.message(
-      'History',
-      name: 'history',
+      'Explore',
+      name: 'explore',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manage`
+  String get manage {
+    return Intl.message(
+      'Manage',
+      name: 'manage',
       desc: '',
       args: [],
     );
@@ -115,86 +235,6 @@ class AppTranslations {
     return Intl.message(
       'Profile',
       name: 'profile',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Quiz Top`
-  String get quiz_top {
-    return Intl.message(
-      'Quiz Top',
-      name: 'quiz_top',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Quiz Challenge`
-  String get quiz_challenge {
-    return Intl.message(
-      'Quiz Challenge',
-      name: 'quiz_challenge',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Quiz History`
-  String get quiz_history {
-    return Intl.message(
-      'Quiz History',
-      name: 'quiz_history',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Help`
-  String get help {
-    return Intl.message(
-      'Help',
-      name: 'help',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Edit Profile`
-  String get edit_profile {
-    return Intl.message(
-      'Edit Profile',
-      name: 'edit_profile',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `This field has an invalid email format`
-  String get email_invalid {
-    return Intl.message(
-      'This field has an invalid email format',
-      name: 'email_invalid',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Email address`
-  String get email_address {
-    return Intl.message(
-      'Email address',
-      name: 'email_address',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Name`
-  String get name {
-    return Intl.message(
-      'Name',
-      name: 'name',
       desc: '',
       args: [],
     );

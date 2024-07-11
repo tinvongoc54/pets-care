@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class PetsCareColors {
+class AppColors {
   static const red = Color(0xFFE54D4D);
   static const gray = Color(0xFFF1F2F6);
-  static const grayLight = Color(0xfff5f5f5);
+  static const grayLight = Color(0xFFA1A1A1);
   static const grayDark = Color(0x99000000);
   static const black = Color(0xFF171717);
   static const white = Colors.white;
@@ -15,6 +15,7 @@ class PetsCareColors {
   static const black_10 = Color(0x1A171717);
 
   static const primary = Color(0xFF5CB15A);
+  static const primaryLight = Color(0xFF73D370);
   static const primaryDark = Color(0xCC1E1E1E);
   static const primaryDark_50 = Color(0x801E1E1E);
 
@@ -27,8 +28,8 @@ class PetsCareColors {
 
   static const contentBlack = Color(0xFF404040);
 
-  static const kPrimaryGradient = LinearGradient(
-    colors: [Color(0xFF46A0AE), Color(0xFF00FFCB)],
+  static const primaryGradient = LinearGradient(
+    colors: [primary, primaryLight],
     begin: Alignment.centerLeft,
     end: Alignment.centerRight,
   );

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../resources/localization/l10n.dart';
+import '../../resource/localization/l10n.dart';
 import 'error_data.dart';
 
 class DataResponseException extends DioException {
