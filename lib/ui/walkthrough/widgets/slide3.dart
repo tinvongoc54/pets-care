@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pets_care/resource/theme/app_colors.dart';
 import 'package:pets_care/resource/theme/app_text_styles.dart';
+import 'package:pets_care/router/route_page.dart';
 
 import '../../../resource/localization/l10n.dart';
 
@@ -30,7 +31,10 @@ class Slide3 extends StatelessWidget {
               borderRadius: BorderRadius.circular(10)),
           padding: const EdgeInsets.symmetric(horizontal: 12),
           child: CupertinoButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamedAndRemoveUntil(
+                  context, LOGIN, (route) => false);
+            },
             padding: EdgeInsets.zero,
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

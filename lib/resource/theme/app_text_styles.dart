@@ -33,6 +33,15 @@ TextStyle mediumLargeStyle(
   );
 }
 
+TextStyle veryLargeStyle(
+    {Color color = Colors.black, FontWeight fontWeight = _normal}) {
+  return GoogleFonts.fredoka(
+    fontSize: _veryLarge,
+    color: color,
+    fontWeight: fontWeight,
+  );
+}
+
 TextStyle superLargeStyle(
     {Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(

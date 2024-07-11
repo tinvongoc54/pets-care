@@ -2,4 +2,5 @@
 
 const String SPLASH = "/splash";
 const String WALKTHROUGH = "/walkthrough";
+const String LOGIN = "/login";
 const String MAIN_TAB_BAR = "/main_tab_bar";

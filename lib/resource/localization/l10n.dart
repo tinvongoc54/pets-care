@@ -249,6 +249,76 @@ class AppTranslations {
       args: [],
     );
   }
+
+  /// `Email address`
+  String get email {
+    return Intl.message(
+      'Email address',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `or connect with`
+  String get orConnectWith {
+    return Intl.message(
+      'or connect with',
+      name: 'orConnectWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Google`
+  String get loginGoogle {
+    return Intl.message(
+      'Login with Google',
+      name: 'loginGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get loginFacebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'loginFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Apple`
+  String get loginApple {
+    return Intl.message(
+      'Login with Apple',
+      name: 'loginApple',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppTranslations> {

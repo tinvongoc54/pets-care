@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pets_care/router/route_page.dart';
+import 'package:pets_care/ui/login/login_screen.dart';
 import 'package:pets_care/ui/main/main_screen.dart';
 import 'package:pets_care/ui/splash/splash_screen.dart';
 import 'package:pets_care/ui/walkthrough/walkthrough_screen.dart';
@@ -19,6 +20,11 @@ class AppRouter {
       case WALKTHROUGH:
         return MaterialPageRoute(
           builder: (_) => const WalkthroughScreen(),
+          settings: settings,
+        );
+      case LOGIN:
+        return MaterialPageRoute(
+          builder: (_) => const LoginScreen(),
           settings: settings,
         );
       case MAIN_TAB_BAR:
