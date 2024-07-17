@@ -38,7 +38,7 @@ class _SplashViewState extends State<SplashView> {
     return BlocListener<SplashCubit, SplashState>(
       listener: (context, state) {
         if (!state.isCountDownFinished) return;
-        Navigator.pushNamedAndRemoveUntil(context, WALKTHROUGH, (route) => false);
+        Navigator.pushNamedAndRemoveUntil(context, MAIN_TAB_BAR, (route) => false);
       },
       child: Scaffold(
         body: Container(
