@@ -319,6 +319,126 @@ class AppTranslations {
       args: [],
     );
   }
+
+  /// `My Pets`
+  String get myPets {
+    return Intl.message(
+      'My Pets',
+      name: 'myPets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Location Pet`
+  String get locationPets {
+    return Intl.message(
+      'Location Pet',
+      name: 'locationPets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Status Pet`
+  String get statusPets {
+    return Intl.message(
+      'Status Pet',
+      name: 'statusPets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Track Pets`
+  String get trackPets {
+    return Intl.message(
+      'Track Pets',
+      name: 'trackPets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Check Pets`
+  String get checkPets {
+    return Intl.message(
+      'Check Pets',
+      name: 'checkPets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pet Foods`
+  String get petFood {
+    return Intl.message(
+      'Pet Foods',
+      name: 'petFood',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vets`
+  String get vets {
+    return Intl.message(
+      'Vets',
+      name: 'vets',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Book Appointment`
+  String get bookAppointment {
+    return Intl.message(
+      'Book Appointment',
+      name: 'bookAppointment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Health`
+  String get health {
+    return Intl.message(
+      'Health',
+      name: 'health',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Food`
+  String get food {
+    return Intl.message(
+      'Food',
+      name: 'food',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mood`
+  String get mood {
+    return Intl.message(
+      'Mood',
+      name: 'mood',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dr. Shehan, one of the most skilled and experienced veterinarians and the owner of the most convenient animal clinic “Petz & Vetz” Our paradise is situated in the heart of the town with a pleasant environment. We are ready to treat your beloved doggos & puppers with love and involvement.\nBook the appointment now !`
+  String get descriptionExample {
+    return Intl.message(
+      'Dr. Shehan, one of the most skilled and experienced veterinarians and the owner of the most convenient animal clinic “Petz & Vetz” Our paradise is situated in the heart of the town with a pleasant environment. We are ready to treat your beloved doggos & puppers with love and involvement.\\nBook the appointment now !',
+      name: 'descriptionExample',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppTranslations> {

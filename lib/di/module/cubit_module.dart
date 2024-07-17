@@ -1,5 +1,6 @@
 import 'package:pets_care/di/injection.dart';
 import 'package:pets_care/ui/bloc/localization/localization_cubit.dart';
+import 'package:pets_care/ui/home/bloc/home_cubit.dart';
 import 'package:pets_care/ui/login/bloc/login_cubit.dart';
 import 'package:pets_care/ui/walkthrough/bloc/walkthrough_cubit.dart';
 
@@ -23,6 +24,9 @@ abstract class CubitModule {
       })
       ..registerFactory<LoginCubit>(() {
         return LoginCubit();
+      })
+      ..registerFactory<HomeCubit>(() {
+        return HomeCubit();
       });
   }
 }

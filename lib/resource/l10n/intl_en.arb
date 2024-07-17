@@ -26,5 +26,17 @@
   "orConnectWith": "or connect with",
   "loginGoogle": "Login with Google",
   "loginFacebook": "Login with Facebook",
-  "loginApple": "Login with Apple"
+  "loginApple": "Login with Apple",
+  "myPets": "My Pets",
+  "locationPets": "Location Pet",
+  "statusPets": "Status Pet",
+  "trackPets": "Track Pets",
+  "checkPets": "Check Pets",
+  "petFood": "Pet Foods",
+  "vets": "Vets",
+  "bookAppointment": "Book Appointment",
+  "health": "Health",
+  "food": "Food",
+  "mood": "Mood",
+  "descriptionExample": "Dr. Shehan, one of the most skilled and experienced veterinarians and the owner of the most convenient animal clinic “Petz & Vetz” Our paradise is situated in the heart of the town with a pleasant environment. We are ready to treat your beloved doggos & puppers with love and involvement.\\nBook the appointment now !"
 }

@@ -28,6 +28,10 @@ class AppColors {
 
   static const contentBlack = Color(0xFF404040);
 
+  static const colorD7AE53 = Color(0xFFD7AE53);
+  static const color7A86AE = Color(0xFF7A86AE);
+  static const colorE28E69 = Color(0xFFE28E69);
+
   static const primaryGradient = LinearGradient(
     colors: [primary, primaryLight],
     begin: Alignment.centerLeft,
@@ -39,4 +43,8 @@ class AppColors {
     begin: Alignment.centerLeft,
     end: Alignment.centerRight,
   );
+
+  static const boxShadow = [
+    BoxShadow(color: Colors.grey, blurRadius: 3, offset: Offset(2, 3))
+  ];
 }

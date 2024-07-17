@@ -15,8 +15,31 @@ const Color _black = Colors.black;
 const FontWeight _normal = FontWeight.w300;
 const FontWeight _bold = FontWeight.w600;
 
-TextStyle mediumStyle(
-    {Color color = Colors.black, FontWeight fontWeight = _normal}) {
+TextStyle verySmallStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
+  return GoogleFonts.fredoka(
+    fontSize: _verySmall,
+    color: color,
+    fontWeight: fontWeight,
+  );
+}
+
+TextStyle bitSmallStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
+  return GoogleFonts.fredoka(
+    fontSize: _bitSmall,
+    color: color,
+    fontWeight: fontWeight,
+  );
+}
+
+TextStyle smallStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
+  return GoogleFonts.fredoka(
+    fontSize: _small,
+    color: color,
+    fontWeight: fontWeight,
+  );
+}
+
+TextStyle mediumStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(
     fontSize: _medium,
     color: color,
@@ -24,8 +47,7 @@ TextStyle mediumStyle(
   );
 }
 
-TextStyle mediumLargeStyle(
-    {Color color = Colors.black, FontWeight fontWeight = _normal}) {
+TextStyle mediumLargeStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(
     fontSize: _mediumLarge,
     color: color,
@@ -33,8 +55,7 @@ TextStyle mediumLargeStyle(
   );
 }
 
-TextStyle veryLargeStyle(
-    {Color color = Colors.black, FontWeight fontWeight = _normal}) {
+TextStyle veryLargeStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(
     fontSize: _veryLarge,
     color: color,
@@ -42,8 +63,7 @@ TextStyle veryLargeStyle(
   );
 }
 
-TextStyle superLargeStyle(
-    {Color color = Colors.black, FontWeight fontWeight = _normal}) {
+TextStyle superLargeStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(
     fontSize: _superLarge,
     color: color,
