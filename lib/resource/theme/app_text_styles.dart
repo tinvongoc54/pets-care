@@ -47,6 +47,14 @@ TextStyle mediumStyle({Color color = Colors.black, FontWeight fontWeight = _norm
   );
 }
 
+TextStyle semiLargeStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
+  return GoogleFonts.fredoka(
+    fontSize: _semiLarge,
+    color: color,
+    fontWeight: fontWeight,
+  );
+}
+
 TextStyle mediumLargeStyle({Color color = Colors.black, FontWeight fontWeight = _normal}) {
   return GoogleFonts.fredoka(
     fontSize: _mediumLarge,

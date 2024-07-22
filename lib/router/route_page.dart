@@ -10,3 +10,4 @@ const String EXPLORE = "/explore";
 const String MANAGE = "/manage";
 const String PROFILE = "/profile";
 const String DETAIL_PET = "/detail_pet";
+const String CHAT_AI = "/chat_ai";
