@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pets_care/resources/theme/pets_care_theme.dart';
+import 'package:pets_care/resource/theme/app_theme.dart';
 
-import '../resources/localization/l10n.dart';
+import '../resource/localization/l10n.dart';
 import '../router/router.dart';
 
 class PetsCareMaterialApp extends StatelessWidget {
@@ -31,7 +31,7 @@ class PetsCareMaterialApp extends StatelessWidget {
         );
       },
       themeMode: ThemeMode.light,
-      theme: PetsCareTheme.light(),
+      theme: AppTheme.light(),
       onGenerateRoute: AppRouter.generateRoute,
     );
   }
